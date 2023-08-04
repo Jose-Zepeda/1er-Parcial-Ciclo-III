@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane pickOnBounds="false" prefHeight="404.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectoparcial.calculator">
+   <children>
+      <Button fx:id="cero" layoutX="10.0" layoutY="331.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="0" />
+      <Button fx:id="punto" layoutX="75.0" layoutY="331.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="." />
+      <Button fx:id="igual" layoutX="140.0" layoutY="331.0" mnemonicParsing="false" onAction="#clickIgual" prefHeight="65.0" prefWidth="65.0" text="=" />
+      <Button fx:id="sumar" layoutX="205.0" layoutY="331.0" mnemonicParsing="false" onAction="#clickOperador" prefHeight="65.0" prefWidth="65.0" text="+" />
+      <Button fx:id="uno" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="1" />
+      <Button fx:id="dos" layoutX="75.0" layoutY="266.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="2" />
+      <Button fx:id="tres" layoutX="140.0" layoutY="266.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="3" />
+      <Button fx:id="restar" layoutX="205.0" layoutY="266.0" mnemonicParsing="false" onAction="#clickOperador" prefHeight="65.0" prefWidth="65.0" text="-" />
+      <Button fx:id="cuatro" layoutX="10.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="4" />
+      <Button fx:id="cinco" layoutX="75.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="5" />
+      <Button fx:id="seis" layoutX="140.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="6" />
+      <Button fx:id="multiplicar" layoutX="205.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickOperador" prefHeight="65.0" prefWidth="65.0" text="*" />
+      <Button fx:id="siete" layoutX="10.0" layoutY="136.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="7" />
+      <Button fx:id="ocho" layoutX="75.0" layoutY="136.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="8" />
+      <Button fx:id="nueve" layoutX="140.0" layoutY="136.0" mnemonicParsing="false" onAction="#clickNumero" prefHeight="65.0" prefWidth="65.0" text="9" />
+      <Button fx:id="dividir" layoutX="205.0" layoutY="136.0" mnemonicParsing="false" onAction="#clickOperador" prefHeight="65.0" prefWidth="65.0" text="/" />
+      <Label fx:id="screen" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="42.0" prefHeight="65.0" prefWidth="215.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
